@@ -28,7 +28,8 @@ public class MainActivity extends Activity {
 				EditText kata=(EditText)findViewById(R.id.kata);
 				EditText simu=(EditText)findViewById(R.id.simu);
 				EditText kikundi=(EditText)findViewById(R.id.kikundi);
-				String[] value={jina.getText().toString(),mkoa.getText().toString(),wilaya.getText().toString(),kata.getText().toString(),simu.getText().toString(),kikundi.getText().toString()};
+				EditText biashara=(EditText)findViewById(R.id.biashara);
+				String[] value={jina.getText().toString(),mkoa.getText().toString(),wilaya.getText().toString(),kata.getText().toString(),simu.getText().toString(),kikundi.getText().toString(),biashara.getText().toString()};
 				Intent intent=new Intent(MainActivity.this,NextPage.class);
 		        intent.putExtra("pageone", value);
 		    	   startActivity(intent);

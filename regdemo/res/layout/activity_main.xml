@@ -69,12 +69,20 @@
         android:layout_below="@id/simu"
         android:ems="10"
         android:hint="@string/kikundi" />
+      <EditText
+        android:id="@+id/biashara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kikundi"
+        android:ems="10"
+        android:hint="@string/biashara" />
+           
 
     <Button
         android:id="@+id/inayofuata"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/kikundi"
+        android:layout_below="@id/biashara"
         android:text="@string/inayofuata" />
 
 </RelativeLayout>

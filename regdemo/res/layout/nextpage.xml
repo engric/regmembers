@@ -18,26 +18,19 @@
         android:text="@string/title"
         android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/biashara"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView1"
-        android:ems="10"
-        android:hint="@string/biashara" >
-
-        <requestFocus />
-    </EditText>
+  
 
     <EditText
         android:id="@+id/mkopokiasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/biashara"
+        android:layout_below="@id/textView1"
         android:ems="10"
         android:hint="@string/mkopokiasi"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal" >
+           <requestFocus />
+    </EditText>
 
    <TextView
         android:id="@+id/taremkopo"

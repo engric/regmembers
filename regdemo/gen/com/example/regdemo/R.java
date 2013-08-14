@@ -25,9 +25,9 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f080010;
-        public static final int biashara=0x7f080008;
+        public static final int biashara=0x7f080007;
         public static final int image=0x7f08000f;
-        public static final int inayofuata=0x7f080007;
+        public static final int inayofuata=0x7f080008;
         public static final int jina=0x7f080001;
         public static final int kata=0x7f080004;
         public static final int kikundi=0x7f080006;

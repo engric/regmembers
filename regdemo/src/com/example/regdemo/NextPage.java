@@ -58,11 +58,11 @@ public class NextPage extends Activity {
 	        tumaData.setOnClickListener(new OnClickListener(){
 				@Override
 				public void onClick(View v) {
-					EditText biashara=(EditText)findViewById(R.id.biashara);
+					
 					EditText kiasiMkopo=(EditText)findViewById(R.id.mkopokiasi);
 					DatePicker tareheMkopo=(DatePicker)findViewById(R.id.tarehemkopo);
 					EditText nenosiri=(EditText)findViewById(R.id.nenosiri);
-					int month=tareheMkopo.getMonth();
+					int month=tareheMkopo.getMonth()+1;
 					int year=tareheMkopo.getYear();
 					int day=tareheMkopo.getDayOfMonth();
 					String tarehe=""+year+"-"+month+"-"+day;
@@ -73,7 +73,7 @@ public class NextPage extends Activity {
 					clients.addParam("kata", frompageone[3]);
 					clients.addParam("simu", frompageone[4]);
 					clients.addParam("kikundi", frompageone[5]);
-					clients.addParam("biashara",biashara.getText().toString());
+					clients.addParam("biashara",frompageone[6]);
 					clients.addParam("mkopo", kiasiMkopo.getText().toString());
 					clients.addParam("tarehemkopo",tarehe);
 					clients.addParam("nenosiri", nenosiri.getText().toString());
